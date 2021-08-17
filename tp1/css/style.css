@@ -1,0 +1,109 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    border: 1px solid black;
+    margin: 0 100px 0 100px;
+}
+
+.titulo1 {
+    margin-left: 20px;
+}
+.div {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.contenedor {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.466);
+}
+
+.img {
+        width: 100%;
+}
+
+.header {
+    width: 80%;
+    text-align: center;
+}
+
+.txtPersonaje {
+    flex-flow: wrap;
+    width: 100%;
+    float: right;
+    margin-right: 35px;
+    margin-top: -430px;
+    margin-left: 80px;
+}
+
+.personaje {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.personaje div p {
+    text-align: left;
+    float: right;
+    flex-flow: wrap;
+    width: 60%; 
+    margin: 0px;
+}
+.personaje div h2 {
+    text-align: left;
+    float: right;
+    flex-flow: wrap;
+    width: 60%;
+    margin: 0px;
+}
+.personaje div h3 {
+    text-align: left;
+    float: right;
+    flex-flow: wrap;
+    width: 60%;
+    margin: 0px; 
+}
+
+.personaje div img {
+    border-radius: 1000px;
+    width: 85%;
+    display: flex;
+    flex-flow: wrap;
+    margin: 10%;
+}
+
+.imgfooter {
+    width: 100%; 
+    margin: auto;
+    background-image: url("img/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+#footer {
+    text-align: left;
+}
+
+
+
+/*
+Sintaxis de CSS
+reglas o estilos
+selector --> antes de la { y entre las { propiedades con valores q terminan en ;}
+ hay selectores q arrancan con @ 
+ marca como voy a usar el estilo
+
+Selector --> class, id, @algo, *, etiqueta 
+
+clase --> arrancan con .
+etiqueta/tag --> body, h1, etc. 
+*/
+
+/* @media --> adaptabilidad del site. responsive
+@import --> la ruta. linkeo docs de formaato css 
+@keyframes nombre {} --> animacion css
+@font-face {} --> defino una nueva fuente*/
