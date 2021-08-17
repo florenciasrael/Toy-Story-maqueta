@@ -4,13 +4,13 @@
 
 
 body{
-    border: 1px solid black;
     margin: 0 100px 0 100px;
 }
 
 .titulo1 {
     margin-left: 20px;
 }
+
 .div {
     display: flex;
     flex-flow: wrap;
@@ -19,7 +19,9 @@ body{
 .contenedor {
     margin: auto;
     background-color: rgba(255, 255, 255, 0.466);
+    border: 1px solid black;
 }
+
 
 .img {
         width: 100%;
@@ -35,7 +37,7 @@ body{
     width: 100%;
     float: right;
     margin-right: 35px;
-    margin-top: -430px;
+    margin-top: -400px;
     margin-left: 80px;
 }
 
@@ -86,6 +88,12 @@ body{
 
 #footer {
     text-align: left;
+    background-image: url("footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
 }
 
 
